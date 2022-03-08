@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f0f0;
+		background: rgb(232, 243, 235);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -112,7 +112,7 @@ input, select, textarea {
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: inherit;
+		color: #f86a95;
 		text-decoration: none;
 		border: 0;
 	}
@@ -1486,7 +1486,7 @@ input, select, textarea {
 		-ms-transition: opacity 0.25s ease-in-out;
 		transition: opacity 0.25s ease-in-out;
 		display: inline-block;
-		border: solid 6px #ffffff !important;
+		border: solid 6px #eeeeee !important;
 	}
 
 		.image:hover {
@@ -1634,7 +1634,7 @@ input, select, textarea {
 				top: 2.6em;
 				display: block;
 				font-size: 0.8em;
-				background: #878787;
+				background: #0c6451;
 				color: #e4e4e4;
 				width: 2em;
 				height: 2em;
@@ -2082,7 +2082,7 @@ input, select, textarea {
 	#features {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: rgb(232, 243, 235);
 		text-align: center;
 		padding: 6em 0;
 	}
