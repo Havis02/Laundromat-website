@@ -37,6 +37,21 @@ section, summary, time, mark, audio, video {
 	width: 100%;
 	background: #fff;
 	padding: 30px 40px;
+	border-radius: 15px;
+}
+.containerform .title{
+	font-size: 30px;
+	font-weight: 600;
+	position: relative;
+}
+.containerform .title::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 50px;
+	background: linear-gradient(135deg, rgb(205, 231, 212), rgb(111, 179, 156));
 }
 
 article, aside, details, figcaption, figure,
