@@ -88,12 +88,16 @@ form .washing-size .category{
 }
 .washing-size .category label{
 	display: flex;
+	align-items: center;
 
 }
 .washing-size .category .dot-one{
 	height: 18px;
 	width: 18px;
-	background: #0c6451;
+	background: #d9d9d9;
+	border-radius: 50%;
+	margin-right: 15px;
+	border: 5px solid transparent;
 }
 
 article, aside, details, figcaption, figure,
