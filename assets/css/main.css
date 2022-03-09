@@ -42,6 +42,7 @@ section, summary, time, mark, audio, video {
 .containerform .title{
 	font-size: 30px;
 	font-weight: 600;
+	background: #0000;
 	position: relative;
 }
 .containerform .title::before{
