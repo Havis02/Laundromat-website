@@ -98,6 +98,23 @@ form .washing-size .category{
 	border-radius: 50%;
 	margin-right: 15px;
 	border: 5px solid transparent;
+	transition: all 0.3s ease;
+}
+.washing-size .category .dot-two{
+	height: 18px;
+	width: 18px;
+	background: #d9d9d9;
+	border-radius: 50%;
+	margin-right: 15px;
+	border: 5px solid transparent;
+}
+#dot-1:checked ~ .category label .dot-one{
+	border-color: #d9d9d9;
+	background:#0c6451;
+}
+#dot-2:checked ~ .category label .dot-two{
+	border-color: #d9d9d9;
+	background:#0c6451;
 }
 
 article, aside, details, figcaption, figure,
