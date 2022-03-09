@@ -76,6 +76,26 @@ section, summary, time, mark, audio, video {
 	border-color: rgb(111, 179, 156);
 }
 
+form .washing-size .size-title{
+	font-size: 25px;
+	font-weight: 600;
+}
+form .washing-size .category{
+	display: flex;
+	width: 80%;
+	margin: 14px 0;
+	justify-content: space-between;
+}
+.washing-size .category label{
+	display: flex;
+
+}
+.washing-size .category .dot-one{
+	height: 18px;
+	width: 18px;
+	background: #0c6451;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
