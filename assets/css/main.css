@@ -116,6 +116,9 @@ form .washing-size .category{
 	border-color: #d9d9d9;
 	background:#0c6451;
 }
+.form-button-submit button{
+	position: relative;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
