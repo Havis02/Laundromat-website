@@ -42,7 +42,6 @@ section, summary, time, mark, audio, video {
 .containerform .title{
 	font-size: 30px;
 	font-weight: 600;
-	background: #0000;
 	position: relative;
 }
 .containerform .title::before{
@@ -53,6 +52,28 @@ section, summary, time, mark, audio, video {
 	height: 3px;
 	width: 50px;
 	background: linear-gradient(135deg, rgb(205, 231, 212), rgb(111, 179, 156));
+}
+.input-box{
+	font-size: large;
+	
+
+}
+.type{
+	font-size: smaller;
+}
+.user-details .input-box input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	padding-left: 16px;
+	border-bottom-width: 4px;
+	transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+	border-color: rgb(111, 179, 156);
 }
 
 article, aside, details, figcaption, figure,
