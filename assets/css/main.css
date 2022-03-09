@@ -32,6 +32,12 @@ section, summary, time, mark, audio, video {
 	align-items: center;
 	background: linear-gradient(135deg, rgb(205, 231, 212), rgb(111, 179, 156));
 }
+.containerform{
+	max-width: 800px;
+	width: 100%;
+	background: #fff;
+	padding: 30px 40px;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
